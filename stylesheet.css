@@ -1,0 +1,125 @@
+
+.centerDiv { 
+  width: 65%; 
+  height: 100px; 
+  margin: 0 auto; 
+}
+
+#show {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #425;
+  background-color: #688;
+  float: center;
+}
+
+#all {
+  display:none;
+}
+
+body {
+  background-color: rgb(216,216,216);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Arial;
+  line-height: 1.5em;
+  min-width: 960px;
+  width: 100%;
+}
+
+#pic {
+  float: right;
+  padding: 4px;
+  border: 3px solid #660000;
+  height: 300px;
+  width: auto;
+}
+
+h1 {
+  font-size: 2.2em;
+  line-height: 30px;
+}
+
+h2 {
+  background-color: #660000;
+  color: #FFF;
+  font-size: 2.5em;
+  font-weight: 400;
+  line-height: 60px;
+  margin: 0 0 0em 0;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+h4 {
+  color: rgb(120, 120, 120);
+  font-size: 1em;
+}
+
+h5 {
+  border-bottom: 1px solid #999;
+  margin-bottom: 1px;
+}
+
+.date {
+  float: right;
+  margin-right: 20px;
+}
+
+#summary-content {
+  font-style: italic;
+}
+
+.jump.up {
+  font-weight: bold;
+  color: #330066;
+  line-height: 40px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 5px;
+  right: 20px;
+}
+
+.jump.down {
+  font-weight: bold;
+  color: #330066;
+  line-height: 40px;
+  text-decoration: none;
+  position: fixed;
+  top: 5px;
+  right: 20px;
+}
+
+/* Footer */
+#footer {
+}
+
+#footer .nav {
+  float: left;
+  font-size: 1.1em;
+  margin: 0 0 3em 0;
+}
+
+#footer span{
+  float: right;
+  float: left;
+  color: #202020;
+}
+
+#footer a {
+  color: #202020;
+}
+
+#footer a:hover {
+  color: #efefef;
+}
+
+/* clearfix hack */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
